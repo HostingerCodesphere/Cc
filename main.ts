@@ -1,6 +1,6 @@
 window.addEventListener("DOMContentLoaded",() => {
 	const widget1 = new WeatherWidget("#widget1", {
-		city: "Harrisburg",
+		city: "Tarumajaya",
 		kind: "sunny",
 		time: new Date(2024,5,21,11,15),
 		temperature: 88,
@@ -218,4 +218,4 @@ type AnimActions = {
 type AnimParams = {
 	duration: number,
 	easing: string
-}
+	}
